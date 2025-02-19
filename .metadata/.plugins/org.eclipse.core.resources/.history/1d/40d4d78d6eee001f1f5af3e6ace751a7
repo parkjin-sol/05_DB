@@ -1,0 +1,7 @@
+-- 한 줄 주석 (cntrl + /)
+/* 범위 주석 (cntrl + shift + / ) */
+
+/* SQL 실행 
+ * 1개 실행 : CTRL + ENTER 
+ * */
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;

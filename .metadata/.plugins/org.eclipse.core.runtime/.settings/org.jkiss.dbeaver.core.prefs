@@ -1,0 +1,10 @@
+SQLEditor.ContentAssistant.experimental.mode=DEFAULT
+connection.closeOnSleep=true
+dialog.default.folder=C\:\\workspace\\05_DB\\General\\Scripts
+driver.selector.orderBy=score
+eclipse.preferences.version=1
+sample.database.canceled=true
+script.sql.delimiter.blank=ONLY_SEPARATOR
+sql.proposals.insert.table.alias=NONE
+tipOfTheDayInitializer.notFirstRun=true
+ui.auto.update.check.time=1739932724256
