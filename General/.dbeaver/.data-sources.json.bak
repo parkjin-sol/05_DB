@@ -4,6 +4,53 @@
 		"oracle_thin-1951c1e1540-54b076729dc9522d": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
+			"name": "공용DB-system계정",
+			"save-password": true,
+			"configuration": {
+				"host": "112.221.156.34",
+				"port": "12345",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//112.221.156.34:12345/XE",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-1951c3dcfc3-68624d68f57c19a2": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "KH11_PJS",
+			"save-password": true,
+			"configuration": {
+				"host": "112.221.156.34",
+				"port": "12345",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//112.221.156.34:12345/XE",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			},
+			"filters": [
+				{
+					"type": "org.jkiss.dbeaver.ext.oracle.model.OracleSchema",
+					"enabled": true,
+					"include": ["KH11_PJS"]
+				}
+			]
+		},
+		"oracle_thin-19522689fcf-531126cf53b6cf84": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
 			"name": "112.221.156.34",
 			"save-password": true,
 			"configuration": {
