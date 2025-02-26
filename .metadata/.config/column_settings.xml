@@ -3,6 +3,18 @@
 	<item id="NodeList/DBNDatabaseFolder">
 		<column name="이름" visible="true" order="0" width="152"/>
 	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDashboardFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="128"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DBNResource">
+		<column name="이름" visible="true" order="0" width="230"/>
+		<column name="경로" visible="true" order="1" width="320"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="152"/>
+	</item>
 	<item id="NodeList/OracleDBLink">
 		<column name="Name" visible="true" order="0" width="100"/>
 		<column name="User Name" visible="true" order="1" width="100"/>
@@ -83,12 +95,18 @@
 		<column name="Comment" visible="true" order="3" width="100"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="91"/>
-		<column name="#" visible="true" order="1" width="26"/>
-		<column name="Type" visible="true" order="2" width="85"/>
+		<column name="컬럼명" visible="true" order="0" width="86"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="Type" visible="true" order="2" width="86"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
-		<column name="Not Null" visible="true" order="3" width="59"/>
-		<column name="디폴트" visible="true" order="4" width="49"/>
-		<column name="Comment" visible="true" order="5" width="67"/>
+		<column name="Not Null" visible="true" order="3" width="60"/>
+		<column name="디폴트" visible="true" order="4" width="50"/>
+		<column name="Comment" visible="true" order="5" width="68"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="253"/>
+		<column name="Time" visible="true" order="1" width="154"/>
+		<column name="Info" visible="true" order="2" width="46"/>
+		<column name="Folder" visible="true" order="3" width="58"/>
 	</item>
 </items>

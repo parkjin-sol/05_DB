@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="java.lang.Class">
 		<item key="selection" value=""/>
+		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
-			<item value=""/>
+			<item value="TRIM"/>
+			<item value="만"/>
+			<item value="GROUP BY"/>
+			<item value="87"/>
+			<item value="노옹철"/>
+			<item value="MAX"/>
+			<item value="서브쿼리"/>
+			<item value="COUNT"/>
+			<item value="GROUP"/>
 		</list>
 	</section>
 </section>

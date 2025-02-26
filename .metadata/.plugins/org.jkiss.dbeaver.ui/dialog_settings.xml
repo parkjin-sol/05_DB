@@ -53,4 +53,11 @@
 		<item key="DIALOG_HEIGHT" value="276"/>
 		<item key="DIALOG_FONT_NAME" value="1|D2Coding|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding"/>
 	</section>
+	<section name="DBeaver.ScriptSelectorPopup">
+		<item key="DIALOG_X_ORIGIN" value="234"/>
+		<item key="DIALOG_Y_ORIGIN" value="285"/>
+		<item key="DIALOG_WIDTH" value="555"/>
+		<item key="DIALOG_HEIGHT" value="357"/>
+		<item key="DIALOG_FONT_NAME" value="1|D2Coding|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding"/>
+	</section>
 </section>

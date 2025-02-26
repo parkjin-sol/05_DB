@@ -741,32 +741,18 @@ SELECT
 	COUNT(DISTINCT DEPT_CODE) -- 6 (NULL 제외)
 FROM
 	EMPLOYEE;
+	
 
 -- EMPLOYEE 테이블에 존재하는 여자, 남자 사원 수 조회
+
 /* [결과]
- * 
- */
-
+ *      여자   남자
+ * 1행   8      15
+ * */
 SELECT 
-	COUNT(DECODE(SUBSTR(EMP_NO, 8, 1), '2', '여자') ) AS 여자,
-	COUNT(DECODE(SUBSTR(EMP_NO, 8, 1), '1', '남자') ) AS 남자
-FROM
-	EMPLOYEE 
-
--- 제너릭스 <>
--- 타입제한 (컴파일 실행시 타입을 검사)
--- instanceof, 다운캐스팅 할 필요없음
-	
--- Wrapper class 
--- 기본 자료형을 List로 저장하고 싶은데
--- List는 객체만 저장이되어서 객체 형태로 변경해주 클래스
-
--- 추상메서드
--- 몸체없는 메서드
--- 
-	
-	
-
-
+	COUNT(DECODE(SUBSTR(EMP_NO,8,1), '2', '여자')) AS 여자,
+	COUNT(DECODE(SUBSTR(EMP_NO,8,1), '1', '남자')) AS 남자
+FROM 
+	EMPLOYEE ;
 
 

@@ -1,0 +1,319 @@
+2025-02-26 11:01:16.030 - DBeaver 24.3.5.202502162012 is starting
+2025-02-26 11:01:16.031 - OS: Windows 10 10.0 (amd64)
+2025-02-26 11:01:16.031 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-02-26 11:01:16.031 - Install path: 'C:\Program Files\DBeaver'
+2025-02-26 11:01:16.031 - Instance path: 'file:/C:/workspace/05_DB/'
+2025-02-26 11:01:16.033 - Memory available 64Mb/1024Mb
+2025-02-26 11:01:16.033 - Platform not initialized: metadata folder may be not set
+2025-02-26 11:01:16.040 - Create display
+2025-02-26 11:01:16.129 - Initialize desktop platform...
+2025-02-26 11:01:16.244 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.100.v20241022-0806]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.0.v20241001-1711]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.500.v20240621-0541]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.149.202502162012]
+2025-02-26 11:01:16.415 - Initialize base platform...
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.149.202502162012]
+2025-02-26 11:01:16.440 - Platform initialized (311ms)
+2025-02-26 11:01:16.470 - Starting instance server at http://localhost:50681
+2025-02-26 11:01:16.479 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.600.v20241015-1729]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.0.v20241015-2219]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.400.v20241015-1729]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.700.v20241015-1729]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.500.v20241015-1729]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.500.v20241015-1729]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.600.v20241107-2150]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.600.v20241008-1401]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.19.0.v20241106-0945]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.0.v20241112-1917]
+2025-02-26 11:01:17.709 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.139.202502162012]
+2025-02-26 11:01:17.840 - Total database drivers: 122 (122)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.400.v20240415-0528]
+2025-02-26 11:01:17.907 - Create actions
+2025-02-26 11:01:17.913 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-02-26 11:01:17.914 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-02-26 11:01:17.914 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-02-26 11:01:17.914 - Create workbench actions
+2025-02-26 11:01:18.268 - Initialize workbench window
+2025-02-26 11:01:18.272 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.149.202502162012]
+2025-02-26 11:01:18.488 - NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.149.202502162012]
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.125.202502162012]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.600.v20240915-0814]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.400.v20240702-1702]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.186.202502162012]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.18.0.202411181923]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.20.0.202411181923]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.109.202502162012]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.109.202502162012]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.146.202502162012]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.42.202502162012]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.234.202502162012]
+> Start 콘솔 [org.eclipse.ui.console 3.14.200.v20240918-1457]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.22.0.v20241113-1056]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.127.202502162012]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.136.202502162012]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.127.202502162012]
+2025-02-26 11:01:20.528 - Connect with 'KH11_PJS' (oracle_thin-1951c3dcfc3-68624d68f57c19a2)
+2025-02-26 11:01:20.552 - Execution context opened (KH11_PJS; Main; 0)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.44.202502162012]
+2025-02-26 11:01:21.077 - Execution context opened (KH11_PJS; Metadata; 1)
+2025-02-26 11:01:21.175 - Connected (oracle_thin-1951c3dcfc3-68624d68f57c19a2, Oracle JDBC driver [19.18.0.0.0])
+2025-02-26 11:01:21.177 - Execution context opened (KH11_PJS; SQLEditor <08_DDL(CREATE).sql>; 2)
+2025-02-26 11:01:22.678 - java.net.MalformedURLException: no protocol: tips.xml
+java.net.MalformedURLException: no protocol: tips.xml
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.ShowTipOfTheDayHandler.loadTips(ShowTipOfTheDayHandler.java:83)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.ShowTipOfTheDayHandler.showTipOfTheDay(ShowTipOfTheDayHandler.java:50)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.TipOfTheDayInitializer$1.runInUIThread(TipOfTheDayInitializer.java:40)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:293)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:665)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:621)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1476)
+2025-02-26 11:02:15.284 - Can't get column 'PLUGGED_IN': 부적합한 열 이름
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.133.202502162012]
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.173.202502162012]
+2025-02-26 11:04:24.388 - SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+
+Error position: line: 133 pos: 2684
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [955] [42000]: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:130)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:653)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:546)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:565)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:1039)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4309)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:128)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:192)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:126)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5071)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:461)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1104)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:553)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:655)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:229)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:41)
+	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:928)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1205)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1823)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1778)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:303)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:128)
+	... 12 more
+Caused by: Error : 955, Position : 2684, Sql = --------------------------------------------------------------------------------------------------------------------
+
+-- DDL(DATA DEFINITION LANGUAGE) : 데이터 정의 언어
+
+-- 객체(OBJECT)를 만들고(CREATE), 수정(ALTER)하고, 삭제(DROP) 등
+-- 데이터의 전체 구조를 정의하는 언어로 주로 DB관리자, 설계자가 사용함
+
+-- 오라클에서의 객체 : 테이블(TABLE), 뷰(VIEW), 시퀀스(SEQUENCE),
+--                   인덱스(INDEX), 패키지(PACKAGE), 트리거(TRIGGER)
+--                   프로시져(PROCEDURE), 함수(FUNCTION),
+--                   동의어(SYNONYM) , 사용자(USER)
+
+--------------------------------------------------------------------------------------------------------------------
+
+-- CREATE
+
+-- 테이블이나 인덱스, 뷰 등 다양한 데이터베이스 객체를 생성하는 구문
+-- 테이블로 생성된 객체는 DROP 구문을 통해 제거 할 수 있음 
+
+-- 1. 테이블 생성하기
+-- 테이블이란?
+-- 행(row)과 열(column)으로 구성되는 가장 기본적인 데이터베이스 객체
+-- 데이터베이스 내에서 모든 데이터는 테이블을 통해서 저장된다.
+
+
+-- [표현식] 
+/*
+    CREATE TABLE 테이블명 (
+        컬럼명 자료형(크기), 
+        컬럼명 자료형(크기),
+        ...);
+*/
+
+/* 자료형
+    NUMBER : 숫자형(정수, 실수)
+    ** CHAR(크기) : 고정길이 문자형 -> 문자열 (2000BYTE) // 자바에서의 char랑 다름  
+        -> ex) CHAR(10) 컬럼에 'ABC' 3BYTE 문자열만 저장해도 10BYTE 저장공간을 모두 사용.
+        // 속도적인 측면에서 좋음 (주민등록번호, 전화번호, y/n 플래그)
+        
+    ** VARCHAR2(크기) : 가변길이 문자형 (4000 BYTE) variable char 2 
+        -> ex) VARCHAR2(10) 컬럼에 'ABC' 3BYTE 문자열만 저장하면 나머지 7BYTE를 반환함.
+        // 메모리 효율적임 (나머지)
+        
+    DATE : 날짜 타입
+    BLOB : 대용량 이진 데이터 (4GB)
+    CLOB : 대용량 문자 데이터 (4GB)
+*/
+
+-- MEMBER 테이블 생성
+
+/* [MEMBER 테이블 설계]
+ * 
+ * - 필요한 컬럼 : 아이디, 비밀번호, 이름, 주민등록번호, 가입일
+ * 
+ * - 컬럼명, 자료형 생각하기
+ * 
+ * 						  컬럼명       자료형(크기)
+ * 아이디       :  MEMBER_ID  	 VARCHAR2(20) 
+ * 비밀번호     :  MEMBER_PW     VARCHAR2(20)
+ * 이름         :  MEMBER_NAME   VARCHAR2(15) (한글 5글자까지)
+ * 주민등록번호 :  MEMBER_SSN    CHAR(14) (- 포함)
+ * 가입일       :  ENROLL_DATE   DATE 
+ *  -> 기본값을 SYSDAYR로 지정    
+ */
+
+CREATE TABLE "MEMBER" (
+	 MEMBER_ID  	 VARCHAR2(20),
+	 MEMBER_PW     VARCHAR2(20), 
+	 MEMBER_NAME   VARCHAR2(15),
+	 MEMBER_SSN    CHAR(14),
+	 ENROLL_DATE   DATE DEFAULT SYSDATE 
+), OriginalSql = --------------------------------------------------------------------------------------------------------------------
+
+-- DDL(DATA DEFINITION LANGUAGE) : 데이터 정의 언어
+
+-- 객체(OBJECT)를 만들고(CREATE), 수정(ALTER)하고, 삭제(DROP) 등
+-- 데이터의 전체 구조를 정의하는 언어로 주로 DB관리자, 설계자가 사용함
+
+-- 오라클에서의 객체 : 테이블(TABLE), 뷰(VIEW), 시퀀스(SEQUENCE),
+--                   인덱스(INDEX), 패키지(PACKAGE), 트리거(TRIGGER)
+--                   프로시져(PROCEDURE), 함수(FUNCTION),
+--                   동의어(SYNONYM) , 사용자(USER)
+
+--------------------------------------------------------------------------------------------------------------------
+
+-- CREATE
+
+-- 테이블이나 인덱스, 뷰 등 다양한 데이터베이스 객체를 생성하는 구문
+-- 테이블로 생성된 객체는 DROP 구문을 통해 제거 할 수 있음 
+
+-- 1. 테이블 생성하기
+-- 테이블이란?
+-- 행(row)과 열(column)으로 구성되는 가장 기본적인 데이터베이스 객체
+-- 데이터베이스 내에서 모든 데이터는 테이블을 통해서 저장된다.
+
+
+-- [표현식] 
+/*
+    CREATE TABLE 테이블명 (
+        컬럼명 자료형(크기), 
+        컬럼명 자료형(크기),
+        ...);
+*/
+
+/* 자료형
+    NUMBER : 숫자형(정수, 실수)
+    ** CHAR(크기) : 고정길이 문자형 -> 문자열 (2000BYTE) // 자바에서의 char랑 다름  
+        -> ex) CHAR(10) 컬럼에 'ABC' 3BYTE 문자열만 저장해도 10BYTE 저장공간을 모두 사용.
+        // 속도적인 측면에서 좋음 (주민등록번호, 전화번호, y/n 플래그)
+        
+    ** VARCHAR2(크기) : 가변길이 문자형 (4000 BYTE) variable char 2 
+        -> ex) VARCHAR2(10) 컬럼에 'ABC' 3BYTE 문자열만 저장하면 나머지 7BYTE를 반환함.
+        // 메모리 효율적임 (나머지)
+        
+    DATE : 날짜 타입
+    BLOB : 대용량 이진 데이터 (4GB)
+    CLOB : 대용량 문자 데이터 (4GB)
+*/
+
+-- MEMBER 테이블 생성
+
+/* [MEMBER 테이블 설계]
+ * 
+ * - 필요한 컬럼 : 아이디, 비밀번호, 이름, 주민등록번호, 가입일
+ * 
+ * - 컬럼명, 자료형 생각하기
+ * 
+ * 						  컬럼명       자료형(크기)
+ * 아이디       :  MEMBER_ID  	 VARCHAR2(20) 
+ * 비밀번호     :  MEMBER_PW     VARCHAR2(20)
+ * 이름         :  MEMBER_NAME   VARCHAR2(15) (한글 5글자까지)
+ * 주민등록번호 :  MEMBER_SSN    CHAR(14) (- 포함)
+ * 가입일       :  ENROLL_DATE   DATE 
+ *  -> 기본값을 SYSDAYR로 지정    
+ */
+
+CREATE TABLE "MEMBER" (
+	 MEMBER_ID  	 VARCHAR2(20),
+	 MEMBER_PW     VARCHAR2(20), 
+	 MEMBER_NAME   VARCHAR2(15),
+	 MEMBER_SSN    CHAR(14),
+	 ENROLL_DATE   DATE DEFAULT SYSDATE 
+), Error Msg = ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:513)
+	... 26 more
+2025-02-26 11:08:39.971 - Execution context closed (KH11_PJS, 2)
+2025-02-26 11:08:40.136 - Dispose navigator model
+2025-02-26 11:08:40.169 - DBeaver is stopping
+2025-02-26 11:08:40.170 - Stop instance server
+2025-02-26 11:08:41.177 - Instance server has been stopped
+2025-02-26 11:08:41.177 - DBeaver shutdown completed
