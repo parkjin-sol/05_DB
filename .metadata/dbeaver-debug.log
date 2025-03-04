@@ -1,0 +1,209 @@
+2025-02-28 10:52:05.885 - DBeaver 24.3.5.202502162012 is starting
+2025-02-28 10:52:05.886 - OS: Windows 10 10.0 (amd64)
+2025-02-28 10:52:05.886 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-02-28 10:52:05.887 - Install path: 'C:\Program Files\DBeaver'
+2025-02-28 10:52:05.887 - Instance path: 'file:/C:/workspace/05_DB/'
+2025-02-28 10:52:05.888 - Memory available 64Mb/1024Mb
+2025-02-28 10:52:05.888 - Platform not initialized: metadata folder may be not set
+2025-02-28 10:52:05.897 - Create display
+2025-02-28 10:52:06.024 - Initialize desktop platform...
+2025-02-28 10:52:06.161 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.100.v20241022-0806]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.0.v20241001-1711]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.500.v20240621-0541]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.149.202502162012]
+2025-02-28 10:52:06.373 - Initialize base platform...
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.149.202502162012]
+2025-02-28 10:52:06.399 - Platform initialized (375ms)
+2025-02-28 10:52:06.434 - Starting instance server at http://localhost:49718
+2025-02-28 10:52:06.444 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.600.v20241015-1729]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.0.v20241015-2219]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.400.v20241015-1729]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.700.v20241015-1729]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.500.v20241015-1729]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.500.v20241015-1729]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.38.0.v20240721-0634]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.400.v20240424-0956]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.600.v20241107-2150]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.600.v20241008-1401]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.400.v20240321-1245]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.19.0.v20241106-0945]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.0.v20241112-1917]
+2025-02-28 10:52:07.959 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.139.202502162012]
+2025-02-28 10:52:08.120 - Total database drivers: 122 (122)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.400.v20240415-0528]
+2025-02-28 10:52:08.226 - Create actions
+2025-02-28 10:52:08.242 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-02-28 10:52:08.242 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-02-28 10:52:08.242 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-02-28 10:52:08.242 - Create workbench actions
+2025-02-28 10:52:08.738 - Initialize workbench window
+2025-02-28 10:52:08.743 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.149.202502162012]
+2025-02-28 10:52:09.053 - NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.149.202502162012]
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.125.202502162012]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.600.v20240915-0814]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.400.v20240702-1702]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.500.v20240625-1706]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.186.202502162012]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.18.0.202411181923]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.20.0.202411181923]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.109.202502162012]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.109.202502162012]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.146.202502162012]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.42.202502162012]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.234.202502162012]
+> Start 콘솔 [org.eclipse.ui.console 3.14.200.v20240918-1457]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.22.0.v20241113-1056]
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.127.202502162012]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.136.202502162012]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.127.202502162012]
+2025-02-28 10:52:11.248 - Connect with 'KH11_PJS' (oracle_thin-1951c3dcfc3-68624d68f57c19a2)
+2025-02-28 10:52:11.286 - Execution context opened (KH11_PJS; Main; 0)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.44.202502162012]
+2025-02-28 10:52:12.080 - Execution context opened (KH11_PJS; Metadata; 1)
+2025-02-28 10:52:12.228 - Connected (oracle_thin-1951c3dcfc3-68624d68f57c19a2, Oracle JDBC driver [19.18.0.0.0])
+2025-02-28 10:52:12.284 - Execution context opened (KH11_PJS; SQLEditor <01_SELECT.sql>; 2)
+2025-02-28 10:52:13.089 - Open [https://dbeaver.io/product/version.xml]
+2025-02-28 10:52:13.297 - java.net.MalformedURLException: no protocol: tips.xml
+java.net.MalformedURLException: no protocol: tips.xml
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.ShowTipOfTheDayHandler.loadTips(ShowTipOfTheDayHandler.java:83)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.ShowTipOfTheDayHandler.showTipOfTheDay(ShowTipOfTheDayHandler.java:50)
+	at org.jkiss.dbeaver.ui.app.standalone.tipoftheday.TipOfTheDayInitializer$1.runInUIThread(TipOfTheDayInitializer.java:40)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:293)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:665)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:621)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1476)
+2025-02-28 11:24:49.790 - Connect with 'WORKBOOK' (oracle_thin-195226969af-38995bcac7ef5f7b)
+2025-02-28 11:24:49.792 - Execution context opened (WORKBOOK; Main; 3)
+2025-02-28 11:24:49.895 - Execution context opened (WORKBOOK; Metadata; 4)
+2025-02-28 11:24:49.948 - Connected (oracle_thin-195226969af-38995bcac7ef5f7b, Oracle JDBC driver [19.18.0.0.0])
+2025-02-28 11:24:50.853 - Connect with 'TEST11_USER' (oracle_thin-1954526cd37-54998879f9e3709f)
+2025-02-28 11:24:50.854 - Execution context opened (TEST11_USER; Main; 5)
+2025-02-28 11:24:51.965 - ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:258)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1417)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1280)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1070)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:123)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2461)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:159)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:226)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:92)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:88)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:509)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:456)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:451)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1118)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:660)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:553)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:445)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1416)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1133)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:793)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:813)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:80)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:816)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:620)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:214)
+	... 27 more
+2025-02-28 11:25:04.559 - Connect with '공용DB-system계정' (oracle_thin-1951c1e1540-54b076729dc9522d)
+2025-02-28 11:25:04.560 - Execution context opened (공용DB-system계정; Main; 6)
+2025-02-28 11:25:04.691 - Execution context opened (공용DB-system계정; Metadata; 7)
+2025-02-28 11:25:04.751 - Connected (oracle_thin-1951c1e1540-54b076729dc9522d, Oracle JDBC driver [19.18.0.0.0])
+2025-02-28 11:25:04.785 - Execution context opened (공용DB-system계정; SQLEditor <Script.sql>; 8)
+2025-02-28 11:27:43.421 - Execution context opened (KH11_PJS; SQLEditor <Script-1.sql>; 9)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.173.202502162012]
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.133.202502162012]
+2025-02-28 12:05:46.926 - End idle 1 transactions for oracle_thin-1951c3dcfc3-68624d68f57c19a2
+2025-02-28 13:13:40.171 - End idle 1 transactions for oracle_thin-1951c3dcfc3-68624d68f57c19a2
+2025-02-28 16:43:32.624 - Execution context closed (공용DB-system계정, 6)
+2025-02-28 16:43:32.625 - Execution context closed (WORKBOOK, 3)
+2025-02-28 16:43:32.625 - Execution context closed (KH11_PJS, 0)
+2025-02-28 16:43:32.636 - Execution context closed (WORKBOOK, 4)
+2025-02-28 16:43:32.636 - Execution context closed (공용DB-system계정, 7)
+2025-02-28 16:43:32.636 - Execution context closed (KH11_PJS, 1)
+2025-02-28 16:43:32.636 - Disconnected (oracle_thin-195226969af-38995bcac7ef5f7b)
+2025-02-28 16:43:32.647 - Execution context closed (공용DB-system계정, 8)
+2025-02-28 16:43:32.647 - Execution context closed (KH11_PJS, 2)
+2025-02-28 16:43:32.647 - Disconnected (oracle_thin-1951c1e1540-54b076729dc9522d)
+2025-02-28 16:43:32.658 - Execution context closed (KH11_PJS, 9)
+2025-02-28 16:43:32.658 - Disconnected (oracle_thin-1951c3dcfc3-68624d68f57c19a2)

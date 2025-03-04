@@ -5,6 +5,13 @@
 		<item key="selection" value=""/>
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="DEPY_COPY_TITLE_U"/>
+			<item value="NN_PNO"/>
+			<item value="CK_STATUS"/>
+			<item value="조건"/>
+			<item value="중복"/>
+			<item value="NULL"/>
+			<item value="오류 보고"/>
 			<item value="TRIM"/>
 			<item value="만"/>
 			<item value="GROUP BY"/>
@@ -13,7 +20,10 @@
 			<item value="MAX"/>
 			<item value="서브쿼리"/>
 			<item value="COUNT"/>
-			<item value="GROUP"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="258"/>
+		<item key="DIALOG_Y_ORIGIN" value="399"/>
 	</section>
 </section>

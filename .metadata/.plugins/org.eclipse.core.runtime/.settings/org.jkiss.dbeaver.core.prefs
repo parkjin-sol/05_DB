@@ -7,4 +7,4 @@ sample.database.canceled=true
 script.sql.delimiter.blank=ONLY_SEPARATOR
 sql.proposals.insert.table.alias=NONE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1740528066663
+ui.auto.update.check.time=1740614483498
